@@ -11,6 +11,16 @@ public class Car {
         System.out.println("Starting Car");
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                '}';
+    }
+
     public Car(String make, String model, int year, double price) {
         this.make = make;
         this.model = model;
