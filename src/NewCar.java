@@ -1,19 +1,19 @@
 /**
  * Created by Matt on 7/10/2017.
  */
-public class Car {
+public class NewCar {
     private String make;
     private String model;
     private int year;
     private double price;
 
-    public Car() {
-        System.out.println("Starting Car");
+    public NewCar() {
+        System.out.println("Starting NewCar");
     }
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "NewCar{" +
                 "make='" + make + '\'' +
                 ", model='" + model + '\'' +
                 ", year=" + year +
@@ -21,7 +21,7 @@ public class Car {
                 '}';
     }
 
-    public Car(String make, String model, int year, double price) {
+    public NewCar(String make, String model, int year, double price) {
         this.make = make;
         this.model = model;
         this.year = year;
