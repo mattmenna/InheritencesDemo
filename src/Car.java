@@ -8,6 +8,7 @@ public class Car {
     private double price;
 
     public Car() {
+        System.out.println("Starting Car");
     }
 
     public Car(String make, String model, int year, double price) {
